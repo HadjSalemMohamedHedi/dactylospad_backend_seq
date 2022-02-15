@@ -1,0 +1,32 @@
+{
+    "name": "Backdactylospad",
+    "version": "0.0.1",
+    "description": "Gestion Reporting avec huissiers, clients, Immobilier",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npm/npm.git"
+    },
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.1",
+        "cors": "^2.8.5",
+        "dat-gui": "latest",
+        "dotenv": "^10.0.0",
+        "express-session": "^1.17.2",
+        "helmet": "^4.6.0",
+        "jsonwebtoken": "^8.5.1",
+        "mysql2": "^2.3.3",
+        "nodemailer": "^6.7.2",
+        "path": "latest",
+        "q": "latest",
+        "sequelize": "^6.12.0-beta.3",
+        "tedious": "latest"
+    },
+    "devDependencies": {
+        "express": "^4.13.4"
+    }
+}
